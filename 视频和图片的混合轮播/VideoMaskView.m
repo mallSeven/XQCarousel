@@ -54,6 +54,9 @@
 }
 
 - (void)singleTapAction:(UITapGestureRecognizer *)tap {
+    if (self.progressValue == 1) {
+        return;
+    }
     if (self.buttonValue) {
         self.buttonValue(XQPlayerStateStart);
     }
