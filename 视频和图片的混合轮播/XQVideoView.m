@@ -118,6 +118,8 @@
 }
 
 - (void)dealloc {
+    [self stop];
+    [self.videoPlayer.player.currentItem removeObserver:self forKeyPath:@"loadedTimeRanges"];
     // 移除time观察者
     if (self.timeObserve) {
         [self.videoPlayer.player removeTimeObserver:self.timeObserve];
