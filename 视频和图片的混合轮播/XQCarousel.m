@@ -57,6 +57,7 @@
     self.pageControl.frame = CGRectMake(0, self.frame.size.height - 30, self.frame.size.width, 30);
     self.pageControl.numberOfPages = self.contentArray.count;
     self.pageControl.currentPage = 0;
+    self.pageControl.enabled = NO;
     self.pageControl.currentPageIndicatorTintColor = [UIColor redColor];
     [self addSubview:self.pageControl];
     
