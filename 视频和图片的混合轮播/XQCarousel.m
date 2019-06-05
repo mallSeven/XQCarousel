@@ -43,6 +43,8 @@
     for (NSInteger index = 0; index < self.contentArray.count; index ++) {
         UIImageView *img = [[UIImageView alloc]initWithFrame:CGRectMake(self.frame.size.width * index, 0, self.frame.size.width, self.frame.size.height)];
         img.image = [UIImage imageNamed:self.contentArray[index]];
+        img.contentMode = UIViewContentModeScaleAspectFill;
+        img.clipsToBounds = YES;
         /** 测试 **/
         if (index == 0) {
             self.videoView = [XQVideoView videoViewFrame:img.frame videoUrl:self.contentArray[index]];

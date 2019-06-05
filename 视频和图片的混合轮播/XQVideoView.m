@@ -25,7 +25,6 @@
 
 + (instancetype)videoViewFrame:(CGRect)frame videoUrl:(NSString *)videoUrl {
     XQVideoView *videoView = [[self alloc] initWithFrame:frame];
-    videoView.videoUrl = videoUrl;
     return videoView;
 }
 

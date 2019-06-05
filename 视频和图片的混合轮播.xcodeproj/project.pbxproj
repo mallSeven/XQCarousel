@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0351455C22A7BC45005D3924 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0351455B22A7BC45005D3924 /* TestViewController.m */; };
 		BD2A6F7520F4947E00E8BC22 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2A6F7420F4947E00E8BC22 /* AppDelegate.m */; };
 		BD2A6F7820F4947E00E8BC22 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2A6F7720F4947E00E8BC22 /* ViewController.m */; };
 		BD2A6F7B20F4947E00E8BC22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD2A6F7920F4947E00E8BC22 /* Main.storyboard */; };
@@ -42,6 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0351455A22A7BC45005D3924 /* TestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		0351455B22A7BC45005D3924 /* TestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 		BD2A6F7020F4947D00E8BC22 /* 视频和图片的混合轮播.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "视频和图片的混合轮播.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD2A6F7320F4947D00E8BC22 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BD2A6F7420F4947E00E8BC22 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -122,6 +125,8 @@
 				BD2A6F7420F4947E00E8BC22 /* AppDelegate.m */,
 				BD2A6F7620F4947E00E8BC22 /* ViewController.h */,
 				BD2A6F7720F4947E00E8BC22 /* ViewController.m */,
+				0351455A22A7BC45005D3924 /* TestViewController.h */,
+				0351455B22A7BC45005D3924 /* TestViewController.m */,
 				BD2A6FB320F499A000E8BC22 /* XQCarousel.h */,
 				BD2A6FB420F499A000E8BC22 /* XQCarousel.m */,
 				BD2A6FCA20F4A96100E8BC22 /* XQVideoView.h */,
@@ -306,6 +311,7 @@
 			files = (
 				BD2A6F7820F4947E00E8BC22 /* ViewController.m in Sources */,
 				BD2A6F8320F4947E00E8BC22 /* main.m in Sources */,
+				0351455C22A7BC45005D3924 /* TestViewController.m in Sources */,
 				BD2A6FB520F499A000E8BC22 /* XQCarousel.m in Sources */,
 				BD2A6F7520F4947E00E8BC22 /* AppDelegate.m in Sources */,
 				BD2A6FCC20F4A96100E8BC22 /* XQVideoView.m in Sources */,
